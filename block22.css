@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #new-party-form {
+    margin-bottom: 20px;
+  }
+  
+  #party-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .party {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .party h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .party p {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .party .details-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .party .delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .party-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .party-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .party-details p {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .party-details ul {
+    list-style-type: none;
+  }
+  
+  .party-details li {
+    margin-bottom: 5px;
+  }
+  
+  .close-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
